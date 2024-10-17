@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-21T17:15:39 IST" name="Suite" finished-at="2024-09-21T17:15:39 IST" duration-ms="68">
+    <groups>
+      <group name="smoke">
+        <method signature="day2.demo2()[pri:0, instance:test.day2@3c22fc4c]" name="demo2" class="test.day2"/>
+        <method signature="day3.MobileloginHomeLoan()[pri:0, instance:test.day3@6d2a209c]" name="MobileloginHomeLoan" class="test.day3"/>
+        <method signature="day3.WebloginHomeLoan()[pri:0, instance:test.day3@6d2a209c]" name="WebloginHomeLoan" class="test.day3"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-09-21T17:15:39 IST" name="Regression" finished-at="2024-09-21T17:15:39 IST" duration-ms="68">
+      <class name="test.day2">
+        <test-method signature="demo2()[pri:0, instance:test.day2@3c22fc4c]" started-at="2024-09-21T17:15:39 IST" name="demo2" finished-at="2024-09-21T17:15:39 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo2 -->
+      </class> <!-- test.day2 -->
+      <class name="test.day3">
+        <test-method signature="MobileloginHomeLoan()[pri:0, instance:test.day3@6d2a209c]" started-at="2024-09-21T17:15:39 IST" name="MobileloginHomeLoan" finished-at="2024-09-21T17:15:39 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileloginHomeLoan -->
+        <test-method signature="WebloginHomeLoan()[pri:0, instance:test.day3@6d2a209c]" started-at="2024-09-21T17:15:39 IST" name="WebloginHomeLoan" finished-at="2024-09-21T17:15:39 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebloginHomeLoan -->
+      </class> <!-- test.day3 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
